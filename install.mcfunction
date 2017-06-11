@@ -8,9 +8,9 @@
 gamerule commandBlockOutput false
 
 ## SCOREBOARDS
-scoreboard objectives add djump stat.jump
+scoreboard objectives add doubleJump stat.jump
 scoreboard objectives add timer dummy
-scoreboard players set @a djump 0
+scoreboard players set @a doubleJump 0
 
 ## SETS GAME LOOP
 gamerule gameLoopFunction double_jump:loop

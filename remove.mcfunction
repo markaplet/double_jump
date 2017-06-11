@@ -4,7 +4,7 @@
 # ----------------------------------------------------------------------
 
 ## REMOVE DOUBLE JUMP SCOREBOARDS
-scoreboard objectives remove djump
+scoreboard objectives remove doubleJump
 scoreboard objectives remove timer
 
 ## KILL GAME LOOP
